@@ -1,0 +1,289 @@
+.main-container
+{
+    display:flex;
+    gap:15px;
+    justify-content: space-between;
+}
+.main-container  ul
+{
+    display:flex;
+    list-style:none;
+    gap:15px;
+}
+.button-container
+{
+    display:flex;
+    justify-content:space-around;
+    
+}
+.button-container button {
+    border: none;
+    background-color: #fbfdff;
+    border-radius:15px;
+    cursor:pointer;
+}
+.para-container p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 55px;
+    font-size: 20px;
+}
+.button-container img
+{
+    height: 50px;
+    width: 50px;
+    float:left;
+}
+.blue-box 
+{
+    height:550px;
+    width:100%;
+    border-radius:15px;
+    background-color:#0037d2d4;
+    display:flex;
+    justify-content: space-between;
+
+}
+.blue-box p
+{
+    color: white;
+    margin-top: 33px;
+    margin-left: 93px;
+}
+
+.blue-box h1
+{
+    color:antiquewhite;
+    margin-top: 24px;
+    margin-left: 89px;
+    font-size: 40px;
+}
+
+
+.blue-box button
+{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    height: 35px;
+    width: 122px;
+    margin-left: 9px;
+    background-color: #679cf2;
+    cursor:pointer;
+}
+
+.blue-box img
+{
+    float:right;
+    height: 500px;
+}
+
+.third
+{
+    height: 550px;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: rgba(0,0,0,0.4);
+}
+.third img
+{
+    height: 550px;
+    width:60%;
+    float:left;
+}
+.third button
+{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    height: 44px;
+    width: 136px;
+    margin-left: 13px;
+    background-color: blue;
+    margin-top: 27px;
+    cursor:pointer;
+}
+.blue-box > .button-class
+{
+    display:flex;
+}
+.blue-box .para-class
+{
+     margin-top: 100px;
+     width: 590px;
+}
+
+.button-class {
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.third > .dabba
+{
+    margin-top: 10px;
+}
+
+.forth
+{
+    display:flex;
+    gap: 15px;
+} 
+
+.forth .forth-one
+{
+    display: block;
+    width: 50%;
+    height: 729px;
+    background-color: #5eb5f624;
+    border: 2px solid #00e0ff4a;
+    border-radius: 9px;
+}
+.forth .forth-two
+{
+    display: inline-block;
+    width: 50%;
+    height: 734px;
+    background-color: #0f102fe6;
+    border-radius: 9px;
+}
+
+.forth .forth-two img
+{
+    width: 613px;
+    height: 456px;
+    margin-top: 244px;
+    border-radius: 9px;
+}
+
+.forth .forth-one img
+{
+    width: 613px;
+    height: 477px;
+    margin-top: 62px;
+    border-radius: 9px;
+}
+
+.forth .forth-one p
+{
+    color:rgba(0,0,0,0.4);
+    margin-left: 58px;
+}
+
+.forth .forth-one h1
+{
+    margin-left: 55px;
+}
+
+.forth .forth-one button
+{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    height: 41px;
+    text-align: center;
+    width: 129px;
+    font-size: 15px;
+    cursor:pointer;
+    margin-left: 28px;
+}
+.forth .forth-two p
+{
+    color: rgba(255,255,255,0.4);
+    margin-left: 51px;
+}
+
+.forth .forth-two button
+{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    height: 41px;
+    text-align: center;
+    width: 129px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 53px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.forth .forth-two img
+{
+    width: 613px;
+    height: 477px;
+    margin-top: 62px;
+    border-radius: 9px;
+}
+
+.forth .forth-two h1
+{
+    color: rgba(255,255,255,0.4);
+    margin-left: 45px;
+}
+
+.main
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 73px;
+}
+
+.main .zeroth p
+{
+    font-size: 30px; 
+}
+
+hr
+{
+    margin-top: 73px;
+}
+
+.main .fifth li
+{
+    list-style: none;
+    margin-left: -33px;
+    margin-top: 12px;
+    text-decoration: none;
+    color:black;
+}
+
+.main .sixth li
+{
+    list-style: none;
+    margin-left: -31px;
+    margin-top: 13px;
+    text-decoration: none;
+    color:black;
+}
+
+.main .seventh li
+{
+    list-style: none;
+    margin-left: -31px;
+    margin-top: 13px;
+    text-decoration: none;
+    color:black;
+}
+
+.main .eighth li
+{
+    list-style: none;
+    margin-left: -30px;
+    margin-top: 10px;
+    text-decoration: none;
+    color:black;
+}
+.main .zeroth a
+{
+    text-decoration: none;
+    color:black;
+}
+a
+{
+    text-decoration: none;
+    color:black;
+}
